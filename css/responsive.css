@@ -1,0 +1,198 @@
+/* Responsivness here for Tablet device */
+
+@media screen and (max-width: 768px) and (min-width: 426px) {
+
+    .nav-container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .nav-menus-container {
+        width: 100%;
+    }
+
+    .banner-container {
+
+        
+        margin: 0px auto 0;
+
+        /* padding: 10px;
+        border-radius: 10px; */
+        width: 100%;      
+    }
+    .banner-img img {
+
+        width: 200%;
+    }
+
+    .play-instantly-container {
+        
+        width: 100%;
+
+    }
+
+    .play-instantly-text {
+        width: 100%;
+        text-align: left;
+        padding-left: 0;
+
+    }
+
+
+    .play-instantly-title {
+        text-align: center;
+
+    }
+
+
+    .play-instantly-description {
+
+        text-align: center;
+        width: 100%;
+
+
+    }
+
+    .play-instantly-img {
+        width: 50%;
+    }
+
+    .play-instantly-img img {
+        width: 100%;
+    }
+
+
+}
+
+/* Responsivness here for mobile device */
+
+
+@media screen and (max-width: 426px) {
+    .nav-container {
+        flex-direction: column;
+        padding: auto;
+        margin: auto;
+
+    }
+
+    .nav-menus-container {
+
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .nav-menus-container a {
+        margin-top: 20px;
+    }
+
+    .nav-menus-container .follow-us-btn {
+        width: 50%;
+        margin-bottom: 10px;
+
+    }
+
+    .banner-container {
+        /* margin: 50px auto 0; */
+
+        /* padding: 10px;
+        border-radius: 10px; */
+
+        flex-direction: column-reverse;
+    }
+
+    .banner-text {
+        width: 100%;
+        margin: auto;
+        padding-left: 20px;
+    }
+
+    .banner-img {
+        width: 100%;
+    }
+
+    .banner-img img {
+
+        width: 100%;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+
+    }
+
+    .play-instantly-container {
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .play-instantly-text {
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+
+    }
+
+
+    .play-instantly-title {
+        text-align: center;
+
+    }
+
+
+    .play-instantly-description {
+
+        text-align: center;
+        width: 100%;
+
+
+    }
+
+    .play-instantly-img {
+        width: 100%;
+    }
+
+    .play-instantly-img img {
+        width: 100%;
+    }
+
+
+    .game-grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+
+    }
+
+    /* .single-contain {
+        grid-template-columns: 200px 200px 200px;
+
+    } */
+
+    /* .footer-section {
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+    } */
+
+    .footer-link,
+    .footer-social {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 20px;
+        justify-content: space-around;
+
+    }
+
+
+
+    .footer-terms-condition {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-around;
+    }
+
+}
+
+/* nav responsive ends here  */
