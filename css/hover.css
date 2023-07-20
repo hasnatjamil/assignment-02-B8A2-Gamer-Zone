@@ -1,0 +1,55 @@
+.single-product {
+    position: relative;
+    overflow: hidden;
+}
+
+.single-product img {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.3s ease;
+}
+
+.single-product .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.single-product .button {
+    position: absolute; /* Adjust the positioning */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.single-product .button a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center; /* Center text and icon */
+}
+
+.single-product .button i.fa-play {
+    color: red; 
+    padding-left: 5px; 
+}
+
+.single-product:hover img {
+    opacity: 0.7;
+}
+
+.single-product:hover .overlay {
+    opacity: 1;
+}
